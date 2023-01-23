@@ -1,0 +1,108 @@
+.section-work {
+    padding-bottom: 94px;
+
+    @media (max-width: 1200px) {
+        display: none;
+    }
+
+    &__header {
+        margin-top: 0px;
+        margin-bottom: 50px;
+        color: var(--primary-text-color);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    &__list {
+        position: relative;
+        display: flex;
+    }
+
+    &__desktop-apps {
+
+        margin-right: 30px;
+    }
+
+    &__mobile-apps {
+
+        margin-right: 30px;
+    }
+
+    &__design-solutions {
+
+        margin-right: 0px;
+    }
+
+    &__box1 {
+        position: absolute;
+        margin-top: 224px;
+        display: flex;
+        width: 370px;
+        height: 70px;
+        text-align: center;
+        background: rgba(47, 48, 58, 0.8);
+    }
+
+    &__box2 {
+        position: absolute;
+        left: 33%;
+        margin-left: 14px;
+        margin-top: 224px;
+        display: flex;
+        width: 370px;
+        height: 70px;
+        text-align: center;
+        background: rgba(47, 48, 58, 0.8);
+    }
+
+    &__box3 {
+        position: absolute;
+        left: 66%;
+        margin-left: 28px;
+        margin-top: 224px;
+        display: flex;
+        width: 370px;
+        height: 70px;
+        text-align: center;
+        background: rgba(47, 48, 58, 0.8);
+    }
+
+    &__description1 {
+        margin-left: 107px;
+        margin-top: 27px;
+        margin-bottom: 0px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__description2 {
+        margin-left: 113px;
+        margin-top: 27px;
+        margin-bottom: 0px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__description3 {
+        margin-left: 95px;
+        margin-top: 27px;
+        margin-bottom: 0px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}

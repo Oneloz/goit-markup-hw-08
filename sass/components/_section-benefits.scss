@@ -1,0 +1,113 @@
+.section-benefits {
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+    @media (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        }
+
+    &__header-hidden {
+        position: absolute;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        visibility: hidden;
+    }
+
+    &__list {
+        display: block;
+    
+    @media (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+                 @media (min-width: 1200px) {
+                     display: flex;
+                     
+                 }
+    }
+
+     
+    &__title {
+        margin-bottom: 30px;
+        margin-right: 0px;
+        display: block;
+    
+     @media (min-width: 768px) {
+        margin-bottom: 0px;
+        margin-right: 30px;
+     
+      &:nth-child(2n) {
+        margin-right: 0px;
+      }
+      
+    }
+        @media (min-width: 1200px) {
+            &:nth-child(2n) {
+               margin-right: 30px;
+            }
+            &:nth-child(4n) {
+                margin-right: 0px;
+            }
+    
+        }
+    }
+
+    &__box {
+        padding-top: 25px;
+        padding-left: 192px;
+        width: 450px;
+        height: 120px;
+ 
+    
+        background: #F5F4FA;
+        border-radius: 4px;
+    
+    @media (min-width: 768px) {
+        width: 354px;
+        padding-left: 144px;
+
+        }
+        @media (min-width: 1200px) {
+               width: 270px;
+               padding-left: 102px;
+    
+            }
+    }
+
+    
+
+    &__header {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        color: var(--primary-text-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+    
+     @media (min-width: 768px) {
+            text-align: left;
+            
+        }
+    }
+
+    &__description {
+        margin-top: 0px;
+        color: var(--description-text-color);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    
+        @media (min-width: 768px) {
+        width: 354px;
+        margin-bottom: 30px;
+            }
+            @media (min-width: 1200px) {
+                width: 270px;
+                margin-bottom: 0px;
+                }
+    }
+}

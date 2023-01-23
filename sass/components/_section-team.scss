@@ -1,0 +1,155 @@
+.section-team {
+    margin-top: 0px;
+    padding-top: 94px;
+    padding-bottom: 30px;
+    background-color: #F5F4FA;
+    @media (min-width: 1200px) {
+            padding-bottom: 94px;
+        }
+
+    &__header {
+        margin-top: 0px;
+        margin-bottom: 30px;
+        color: var(--primary-text-color);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+     @media (min-width: 1200px) {
+        font-size: 36px;
+        line-height: 1.16;
+        margin-bottom: 50px;
+    }
+    }
+
+    &__list {
+        display: block;
+        
+        @media (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            
+            
+        }
+         @media (min-width: 1200px) {
+             display: flex;
+         }
+    }
+
+    &__card {
+        width: 450px;
+        margin-bottom: 30px;
+        background-color: #ffff;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+
+     
+    
+        @media (min-width: 768px) {
+            width: 354px;
+            margin-right: 30px;
+
+            &:nth-child(2n) {
+                    margin-right: 0px;
+                }
+        }
+        @media (min-width: 1200px) {
+            width: 270px;
+            margin-bottom: 0px;
+            &:nth-child(2n) {
+                margin-right: 30px;
+            }
+            &:nth-child(4n) {
+                      margin-right: 0px;
+                  }
+        }
+    
+    }
+    &__img {
+            
+            display: block;
+            max-width: 100%;
+            height: auto;
+    
+       
+
+    }
+
+    &__card-name {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        color: var(--primary-text-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    &__card-description {
+        margin-bottom: 16px;
+        margin-top: 0px;
+        color: var(--description-text-color);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.14;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+
+    &__social-networks {
+        padding-left: 122px;
+        padding-bottom: 24px;
+        display: flex;
+    
+        @media (min-width: 768px) {
+                padding-left: 74px;
+            }
+    
+          @media (min-width: 1200px) {
+              padding-left: 32px;
+              padding-bottom: 30px;
+          }
+    }
+
+    &__social-networks-box {
+        display: flex;
+    }
+
+    &__social-networks-link {
+        text-align: center;
+        margin-right: 10px;
+        border: none;
+        width: 44px;
+        height: 44px;
+        color: #AFB1B8;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+        cursor: pointer;
+
+        transition-property: var(--links-buttons-text-color);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover {
+            color: #FFFFFF;
+            background-color: #2196F3;
+
+        }
+    }
+
+    &__social-networks-link:nth-child(4n) {
+        margin-right: 10px;
+    }
+
+    &__social-networks-icon {
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        fill: currentColor;
+    }
+}
